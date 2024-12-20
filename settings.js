@@ -20,7 +20,7 @@ ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'false' : process.env.ANTI
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "true" : process.env.ANTI_BOT,
 WELCOME_GOODBYE: process.env.WELCOME_GOODBYE === undefined ? "true" : process.env.WELCOME_GOODBYE,
 ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "true" : process.env.ALLWAYS_OFFLINE,
-READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
+READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 RECORDING: process.env.RECORDING === undefined ? "false" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
